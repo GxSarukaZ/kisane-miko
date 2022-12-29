@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "kisane",
+  "version": "${version}",
+
+  "name": "Kisane Miko Mod",
+  "description": "Add moaw kheaw to minecraft!",
+  "authors": [
+    "NamoZDizeX!"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "MIT",
+  "icon": "assets/kisane/icon.jpg",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.namozdizex.kisane.KisaneMikoMod"
+    ],
+  "client": [
+    "net.namozdizex.kisane.KisaneMikoClient"
+    ]
+  },
+  "mixins": [
+    "kisane.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

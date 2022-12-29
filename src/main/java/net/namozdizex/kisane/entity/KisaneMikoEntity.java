@@ -276,19 +276,19 @@ public class KisaneMikoEntity extends Monster{
         }
 
         protected SoundEvent getAmbientSound() {
-            return SoundEvents.ZOMBIE_AMBIENT;
+            return SoundEvents.CAT_AMBIENT;
         }
 
         protected SoundEvent getHurtSound(DamageSource damageSource) {
-            return SoundEvents.ZOMBIE_HURT;
+            return SoundEvents.CAT_HURT;
         }
 
         protected SoundEvent getDeathSound() {
-            return SoundEvents.ZOMBIE_DEATH;
+            return SoundEvents.WARDEN_DEATH;
         }
 
         protected SoundEvent getStepSound() {
-            return SoundEvents.ZOMBIE_STEP;
+            return SoundEvents.CAT_PURR;
         }
 
         protected void playStepSound(BlockPos blockPos, BlockState blockState) {

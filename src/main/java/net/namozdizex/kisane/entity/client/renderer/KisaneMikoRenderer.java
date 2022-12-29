@@ -9,6 +9,7 @@ import net.minecraft.client.renderer.entity.AbstractZombieRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.world.entity.monster.Zombie;
 import net.namozdizex.kisane.entity.KisaneMikoEntity;
+import net.namozdizex.kisane.entity.client.KisaneMikoGlowingLayer;
 import net.namozdizex.kisane.entity.client.model.KisaneMikoModel;
 
 @Environment(EnvType.CLIENT)
@@ -19,5 +20,6 @@ public class KisaneMikoRenderer extends AbstractKisaneMikoRenderer<KisaneMikoEnt
 
     public KisaneMikoRenderer(EntityRendererProvider.Context context, ModelLayerLocation modelLayerLocation, ModelLayerLocation modelLayerLocation2, ModelLayerLocation modelLayerLocation3) {
         super(context, new KisaneMikoModel<>(context.bakeLayer(modelLayerLocation)), new KisaneMikoModel(context.bakeLayer(modelLayerLocation2)), new KisaneMikoModel(context.bakeLayer(modelLayerLocation3)));
+        this.addLayer(new KisaneMikoGlowingLayer<>(this));
     }
 }

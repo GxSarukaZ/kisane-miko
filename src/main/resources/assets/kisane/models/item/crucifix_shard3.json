@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "kisane:item/crucifix"
+    "layer0": "kisane:item/crucifix_4"
   }
 }

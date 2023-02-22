@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "kisane:bloody_crucifix"
+    },
+    "title": {
+      "translate": "advancements.kisane.you_cant_run_away_form_a60.title"
+    },
+    "description": {
+      "translate": "advancements.kisane.you_cant_run_away_form_a60.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "annouce_to_chat": true,
+    "hidden": false,
+    "background": "minecraft:textures/block/sculk_catalyst_top.png"
+
+  },
+  "rewards": {
+    "experience": 25
+  },
+  "criteria": {
+    "true_crucifix": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "item": {
+          "items": [
+            "kisane:bloody_crucifix"
+          ]
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "bloody_crucifix"
+    ]
+  ]
+}

@@ -1,4 +1,27 @@
 {
   "item.kisane.kisane_miko_spawn_egg": "Kisane Miko Spawn Egg",
-  "item.kisane.crucifix": "Crucifix"
+
+  "item.kisane.normal_crucifix": "Crucifix",
+  "item.kisane.true_crucifix": "Crucifix",
+  "item.kisane.crucifix_shard": "Crucifix Part",
+  "item.kisane.crucifix_shard1": "Crucifix Part",
+  "item.kisane.crucifix_shard2": "Crucifix Part",
+  "item.kisane.crucifix_shard3": "Crucifix Part",
+  "item.kisane.crucifix_shard4": "Crucifix Part",
+  "item.kisane.bloody_crucifix": "Bloody Crucifix",
+
+  "advancements.kisane.crucify_it_souls.title": "Wound this earth crucify its soul?",
+  "advancements.kisane.unlimit_of_power.title": "Go Beyound The Limit Of The Power",
+  "advancements.kisane.you_cant_unlock_the_true_power.title": "You can't unlock the true power of Crucifix",
+  "advancements.kisane.you_unlock_the_true_power_of_crucifix.title": "You unlock the true power of Crucifix",
+  "advancements.kisane.you_cant_run_away_from_a60.title": "§6You can't run away from A-60!!!",
+
+  "advancements.kisane.crucify_it_souls.description": "Get true crucifix",
+  "advancements.kisane.unlimit_of_power.description": "Got true crucifix and normal crucifix",
+  "advancements.kisane.you_cant_unlock_the_true_power.description": "Got normal crucifix",
+  "advancements.kisane.you_unlock_the_true_power_of_the_crucifix.description": "Got true crucifix",
+  "advancements.kisane.you_cant_run_away_from_a60.description": "§6Got possessed by an A-60 at the Crucifix",
+
+  "entity.kisane.kisane_miko": "Kisane Miko",
+  "entity.kisane.a60": "A-60"
 }

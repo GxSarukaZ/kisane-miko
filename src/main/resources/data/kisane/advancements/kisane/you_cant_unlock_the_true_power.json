@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "kisane:normal_crucifix"
+    },
+    "title": {
+      "translate": "advancements.kisane.you_cant_unlock_the_true_power.title"
+    },
+    "description": {
+      "translate": "advancements.kisane.you_cant_unlock_the_true_power.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "annouce_to_chat": true,
+    "hidden": false,
+    "background": "minecraft:textures/block/sculk_catalyst_top.png"
+
+  },
+  "rewards": {
+    "experience": 25
+  },
+  "criteria": {
+    "normal_crucifix": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "item": {
+          "items": [
+            "kisane:normal_crucifix"
+          ]
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "normal_crucifix"
+    ]
+  ]
+}
